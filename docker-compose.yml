@@ -8,6 +8,6 @@ services:
       - "8083:80"
       - "4435:443"
     volumes:
-      - "/home/jack/Documents/LineArtAutomaticColoring-server/flaskr/checkpoint:/app/flaskr/checkpoint"
-      - "/home/jack/Documents/LineArtAutomaticColoring-server/logs/:/app/logs"
+      - "/home/jack/Documents/LineArtAutomaticColoring-Server/flaskr/checkpoint:/app/flaskr/checkpoint"
+      - "/home/jack/Documents/LineArtAutomaticColoring-Server/logs/:/app/logs"
     restart: always
