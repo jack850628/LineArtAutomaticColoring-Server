@@ -14,5 +14,6 @@ tensorflow==2.9.1
 protobuf==3.19.4
 numpy==1.22
 keras==2.9.0
+pillow
 
 setuptools==59.8.0
