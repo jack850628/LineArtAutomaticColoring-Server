@@ -1,6 +1,6 @@
 version: "2"
 services:
-  LineArtAutomaticColoring-Server:
+  line-art-automatic-coloring-server:
     #image: "LineArtAutomaticColoring-Server:latest" #這個會嘗試去docker hub取得image檔，取得失敗則會報錯，不會去抓local image檔
     build: . #直接使用Dockerfile build專案來建立要使用的image檔，不可與image共存
     container_name: service
