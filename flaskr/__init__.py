@@ -35,8 +35,7 @@ def create_app():
 
     @app.route("/", methods=['GET'])
     def index():
-        from tasks import CreateThumbnail as task
-        task.hello.delay("安安")
+        return "安安"
         # return render_template("index.html")
 
     return app
