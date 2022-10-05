@@ -6,7 +6,7 @@ services:
     container_name: service
     ports:
       - "8083:80"
-      - "4434:443"
+      - "4435:443"
     volumes:
       - "/home/jack/Documents/LineArtAutomaticColoring-server/flaskr/checkpoint:/app/flaskr/checkpoint"
       - "/home/jack/Documents/LineArtAutomaticColoring-server/logs/:/app/logs"
