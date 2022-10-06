@@ -6,7 +6,7 @@ uwsgi
 python-dateutil
 pycrypto
 redis
-celery
+celery==4.4.7
 flask_cors
 
 wheel
